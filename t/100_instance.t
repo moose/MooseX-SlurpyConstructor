@@ -9,6 +9,8 @@ use Test::Fatal;
     package Foo;
     use Moose;
     use MooseX::SlurpyConstructor;
+
+    has slurpy => ( is => 'ro', slurpy => 1);
 }
 
 with_immutable {
