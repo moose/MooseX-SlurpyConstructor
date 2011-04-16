@@ -146,7 +146,7 @@ You can also use the normal Moose support channels - see L<Moose#GETTING_HELP>.
 This module was originally written by Mark Morgan C<< <makk384@gmail.com> >>,
 with some bugfix patches by Christian Walde.
 
-It was completely rewritten for Moose 2.0 by Karen Etheridge C<<
+It was rewritten for Moose 2.0 by Karen Etheridge C<<
 <ether@cpan.org> >>, drawing heavily on MooseX::StrictConstructor.
 
 =head1 ACKNOWLEDGEMENTS
