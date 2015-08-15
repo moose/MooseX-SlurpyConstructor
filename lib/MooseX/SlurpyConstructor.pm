@@ -145,6 +145,8 @@ You can also use the normal Moose support channels - see L<Moose/GETTING_HELP>.
 
 =head1 HISTORY
 
+=for stopwords Walde
+
 This module was originally written by Mark Morgan C<< <makk384@gmail.com> >>,
 with some bugfix patches by Christian Walde.
 
