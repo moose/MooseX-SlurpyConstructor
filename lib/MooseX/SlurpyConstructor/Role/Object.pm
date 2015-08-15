@@ -57,8 +57,8 @@ __END__
 
 =head1 DESCRIPTION
 
-When you use C<MooseX::SlurpyConstructor>, your objects will have this
+When you use L<MooseX::SlurpyConstructor>, your objects will have this
 role applied to them. It provides a method modifier for C<BUILDALL()>
-from C<Moose::Object> that saves all unrecognized attributes.
+from L<Moose::Object> that saves all unrecognized attributes.
 
 =cut

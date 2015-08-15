@@ -56,7 +56,7 @@ __END__
 =head1 DESCRIPTION
 
 This role simply wraps C<_generate_BUILDALL()> (from
-C<Moose::Meta::Method::Constructor>) so that immutable classes have a
+L<Moose::Meta::Method::Constructor>) so that immutable classes have a
 slurpy constructor.
 
 =cut

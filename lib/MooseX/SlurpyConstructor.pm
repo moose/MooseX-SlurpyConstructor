@@ -88,17 +88,17 @@ __END__
 
 =head1 DESCRIPTION
 
-Including this module within Moose-based classes, and declaring an
+Including this module within L<Moose>-based classes, and declaring an
 attribute as 'slurpy' will allow capturing of all unknown constructor
 arguments in the given attribute.
 
-As of Moose 1.9900, this module can also be used in a role, in which case the
+As of L<Moose> 1.9900, this module can also be used in a role, in which case the
 constructor of the consuming class will become slurpy.
 
 =head1 OPTIONAL RESTRICTIONS
 
-No additional options are added to your 'slurpy' attribute, so if you want to
-make it read-only, or restrict its type constraint to a HashRef of specific
+No additional options are added to your C<slurpy> attribute, so if you want to
+make it read-only, or restrict its type constraint to a C<HashRef> of specific
 types, you should state that yourself. Typical usage may include any or all of
 the options below:
 
@@ -121,13 +121,13 @@ L<Moose::Meta::Attribute::Native::Trait::Hash>.
 
 =over 4
 
-=item MooseX::StrictConstructor
+=item * L<MooseX::StrictConstructor>
 
 The opposite of this module, making constructors die on unknown arguments.
-If both of these are used together, StrictConstructor will always
+If both of these are used together, L<MooseX::StrictConstructor> will always
 take precedence.
 
-This module can also be used in migrating code from vanilla Moose to
+This module can also be used in migrating code from vanilla L<Moose> to
 using L<MooseX::StrictConstructor>.  That was one of my original motivations
 for writing it; to allow staged migration.
 
@@ -136,24 +136,24 @@ for writing it; to allow staged migration.
 =head1 BUGS
 
 Please report any bugs or feature requests to
-C<bug-moosex-slurpyconstructor@rt.cpan.org>, or through the web
+C<bug-MooseX-SlurpyConstructor@rt.cpan.org>, or through the web
 interface at L<http://rt.cpan.org>.  The module maintainers will be notified,
 and then you'll automatically be notified of progress on your bug as changes
 are made.
 
-You can also use the normal Moose support channels - see L<Moose#GETTING_HELP>.
+You can also use the normal Moose support channels - see L<Moose/GETTING_HELP>.
 
 =head1 HISTORY
 
 This module was originally written by Mark Morgan C<< <makk384@gmail.com> >>,
 with some bugfix patches by Christian Walde.
 
-It was rewritten for Moose 2.0 by Karen Etheridge C<<
-<ether@cpan.org> >>, drawing heavily on MooseX::StrictConstructor.
+It was rewritten for Moose 2.0 by Karen Etheridge
+C<< <ether@cpan.org> >>, drawing heavily on L<MooseX::StrictConstructor>.
 
 =head1 ACKNOWLEDGEMENTS
 
-Thanks to the folks from moose mailing list and IRC channels for
+Thanks to the folks from the Moose mailing list and IRC channels for
 helping me find my way around some of the Moose bits I didn't
 know of before writing this module.
 

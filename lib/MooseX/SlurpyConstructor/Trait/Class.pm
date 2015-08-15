@@ -111,7 +111,7 @@ __END__
 =head1 DESCRIPTION
 
 This role simply wraps C<_inline_BUILDALL()> (from
-C<Moose::Meta::Class>) so that immutable classes have a
+L<Moose::Meta::Class>) so that immutable classes have a
 slurpy constructor.
 
 =cut
