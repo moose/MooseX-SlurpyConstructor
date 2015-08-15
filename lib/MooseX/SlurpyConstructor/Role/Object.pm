@@ -1,5 +1,7 @@
 package MooseX::SlurpyConstructor::Role::Object;
 
+our $VERSION = '1.30';
+
 # applied as base_class_roles => [ __PACKAGE__ ], for all Moose versions.
 use Moose::Role;
 

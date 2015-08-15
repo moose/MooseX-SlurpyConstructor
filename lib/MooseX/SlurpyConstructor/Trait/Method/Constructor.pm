@@ -1,5 +1,7 @@
 package MooseX::SlurpyConstructor::Trait::Method::Constructor;
 
+our $VERSION = '1.30';
+
 # applied as class_metaroles => { constructor => [ __PACKAGE__ ] }, for Moose 1.2x
 
 use Moose::Role;

@@ -3,6 +3,8 @@ package MooseX::SlurpyConstructor;
 use strict;
 use warnings;
 
+our $VERSION = '1.30';
+
 use Moose 0.94 ();
 use Moose::Exporter;
 use Moose::Util::MetaRole;

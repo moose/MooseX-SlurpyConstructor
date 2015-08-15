@@ -1,4 +1,7 @@
 package MooseX::SlurpyConstructor::Trait::Composite;
+
+our $VERSION = '1.30';
+
 use Moose::Role;
 
 around apply_params => sub {
