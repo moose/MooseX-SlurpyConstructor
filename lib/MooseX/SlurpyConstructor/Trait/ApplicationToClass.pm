@@ -27,9 +27,3 @@ around apply => sub {
 no Moose::Role;
 
 1;
-
-__END__
-
-=pod
-
-=cut
