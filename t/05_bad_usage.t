@@ -8,7 +8,6 @@ use Test::Moose qw( with_immutable );
 {
     package DoubleUsage;
 
-    use Test::More;
     use Moose;
     use MooseX::SlurpyConstructor;
 
