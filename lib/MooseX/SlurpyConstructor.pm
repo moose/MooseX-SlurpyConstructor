@@ -133,13 +133,7 @@ for writing it; to allow staged migration.
 
 =back
 
-=head1 BUGS
-
-Please report any bugs or feature requests to
-C<bug-MooseX-SlurpyConstructor@rt.cpan.org>, or through the web
-interface at L<http://rt.cpan.org>.  The module maintainers will be notified,
-and then you'll automatically be notified of progress on your bug as changes
-are made.
+=head1 SUPPORT
 
 You can also use the normal Moose support channels - see L<Moose/GETTING_HELP>.
 
