@@ -133,10 +133,6 @@ for writing it; to allow staged migration.
 
 =back
 
-=head1 SUPPORT
-
-You can also use the normal Moose support channels - see L<Moose/GETTING_HELP>.
-
 =head1 HISTORY
 
 =for stopwords Walde
