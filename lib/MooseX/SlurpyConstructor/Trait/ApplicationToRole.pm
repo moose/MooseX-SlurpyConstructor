@@ -1,6 +1,6 @@
 package MooseX::SlurpyConstructor::Trait::ApplicationToRole;
 
-our $VERSION = '1.30';
+our $VERSION = '1.31';
 
 use Moose::Role;
 

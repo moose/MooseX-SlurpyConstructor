@@ -1,6 +1,6 @@
 package MooseX::SlurpyConstructor::Trait::Class;
 
-our $VERSION = '1.30';
+our $VERSION = '1.31';
 
 # applied as class_metaroles => { class => [ __PACKAGE__ ] }.
 

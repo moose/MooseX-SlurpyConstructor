@@ -3,7 +3,7 @@ package MooseX::SlurpyConstructor;
 use strict;
 use warnings;
 
-our $VERSION = '1.30';
+our $VERSION = '1.31';
 
 use Moose 0.94 ();
 use Moose::Exporter;
