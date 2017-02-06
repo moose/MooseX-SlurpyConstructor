@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package inc::RemoveSection;
+package RemoveSection;
 
 # Since weaver bundles cannot take arguments, it's not possible to write a
 # bundle like [@Filter], or add a -remove feature to an author bundle
@@ -12,7 +12,7 @@ package inc::RemoveSection;
 # config before the object is instantiated.
 
 # Usage:
-# [=inc::RemoveSection]
+# [=RemoveSection]
 # ; full package name
 # remove = Pod::Weaver::Plugin::SingleEncoding
 # ; or moniker assigned from config (remember things from bundles have
