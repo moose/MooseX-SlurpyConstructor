@@ -1,6 +1,9 @@
 Revision history for MooseX-SlurpyConstructor
 
 {{$NEXT}}
+        - added support for __no_BUILD__ as a constructor argument to skip
+          calling any BUILD subs (used internally by modules like Moo that
+          have their own implementation of calling BUILD)
 
 1.30    2017-02-06 02:28:24Z
         - repository has moved to the GitHub Moose organization
