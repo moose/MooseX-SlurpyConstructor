@@ -3,7 +3,6 @@ use warnings;
 
 use Test::More 0.88;
 use Test::Fatal;
-use Test::Moose qw( with_immutable );
 
 {
     package DoubleUsage;
@@ -41,19 +40,12 @@ like(
     has slurpy => ( is => 'ro', slurpy => 1 );
 }
 
-{
-    package Standard;
-
-    use Moose;
-    with 'Role';
-
-    has 'thing' => ( is => 'rw' );
-}
-
 like(
     exception {
         package Standard;
+        use Moose;
         use MooseX::SlurpyConstructor;
+        with 'Role';
         has slurpy2 => ( is => 'ro', slurpy => 1 );
     },
     qr/\QAttempting to use slurpy attribute slurpy2 in class Standard that already has a slurpy attribute (slurpy)\E/,
