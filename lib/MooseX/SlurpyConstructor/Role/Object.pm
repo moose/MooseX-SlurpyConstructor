@@ -21,14 +21,6 @@ after BUILDALL => sub {
     my @extra = sort grep { !$attrs{$_} } keys %{$params};
     return if not @extra;
 
-    # XXX TODO: stuff all these into the slurpy attr.
-
-    # find the slurpy attr
-    # TODO: use the metaclass slurpy_attr to find this:
-    # if $self->meta->slurpy_attr
-    # and then the check for multiple slurpy attrs can be done at
-    # composition time.
-
     my $slurpy_attr = $self->meta->slurpy_attr;
 
     Moose->throw_error('Found extra construction arguments, but there is no \'slurpy\' attribute present!') if not $slurpy_attr;
