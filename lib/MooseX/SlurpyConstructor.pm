@@ -5,7 +5,6 @@ use warnings;
 
 our $VERSION = '1.31';
 
-use Moose 0.94 ();
 use Moose::Exporter;
 use Moose::Util::MetaRole;
 use MooseX::SlurpyConstructor::Role::Object;
@@ -21,6 +20,8 @@ use MooseX::SlurpyConstructor::Trait::Attribute;
         },
     );
 
+    require Moose;
+    Moose->VERSION('0.94');
     if ( Moose->VERSION < 1.9900 ) {
         require MooseX::SlurpyConstructor::Trait::Method::Constructor;
         push @{$meta_stuff{class_metaroles}{constructor}}, 'MooseX::SlurpyConstructor::Trait::Method::Constructor';
